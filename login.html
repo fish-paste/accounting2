@@ -1,0 +1,39 @@
+<html>
+  <head>
+	  <head>
+    <meta charset="utf-8">
+    <title>登录</title>
+  </head>
+  <body>
+	  
+	  <h1 align="center">登陆界面</h1> 
+	   <hr size="3px"  color="brown" >
+    <div class="mui-bar mui-bar-tab" style="height:20px;line-height:20px;font-size:10px;text-align:center;">  
+            仅供测试使用  
+    </div>  
+    <div class="mui-content-padded" style="margin: 5px;">  
+     <p style="text-align: center;">账号</p>
+     <p style="text-align: center;"><input type="text" placeholder="请输入账号" id="username"/></p>
+     <p style="text-align: center;">密码</p>
+     <p style="text-align: center;"><input type="password" placeholder="密码长度至少为六位" id="passworld"/></p>
+     </br></br>
+	 <div style="text-align: center;margin-top: 30px;">
+	 <button onclick="login()" class="button">登录</button>
+     </form>  
+    </div>  
+    <script language="javascript" type="text/javascript">
+		
+     function login() {
+         var p = document.getElementById("passworld").value;
+         var e = document.getElementById("username").value;
+         var p2="tartaglia";
+         var e2="tartaglia";
+         if(p==p2&&e==e2)
+             {window.location.href = "file:///C:/Users/余景杨/Documents/HBuilderProjects/accounting/New Html File.html";}
+         else
+             {alert("账号或密码不正确");}
+     }
+     </script> 
+    </script>
+  </body>
+</html>
